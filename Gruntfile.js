@@ -40,13 +40,6 @@ module.exports = function(grunt) {
         ]
       },
       jade: {
-        options: {
-            data: function(dest, src){
-                var data_file = "./json/data.json";
-
-                return require(data_file);
-            }
-        },
         files: '<%= folders.app %>/jade/**/*.jade',
         tasks: ['jade']
       }
@@ -138,15 +131,10 @@ module.exports = function(grunt) {
           pretty: true,
           basedir: '<%= folders.app %>/jade',
           data: function(dest, src) {
-
-            var page = src[0].replace(/app\/jade\/(.*)\/index.jade/, '$1');
-
-            if (page == src[0]) {
-              page = 'index';
-            }
+            var data_file = "./app/json/data.json";
 
             return {
-              page: page
+              data: require(data_file)
             };
           }
         }

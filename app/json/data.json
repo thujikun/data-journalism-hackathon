@@ -1,10 +1,11 @@
 [
     {
         "id": "q1",
-        "question": "Q1. 幼年期",
+        "disabled": "",
+        "question": "幼年期",
         "answer": [
             {
-                "answer-item": "モンゴル",
+                "answerName": "モンゴル",
                 "comment": [
                     "10%の確率で病気で亡くなります。",
                     "10%の確率で病気で亡くなります。",
@@ -12,7 +13,7 @@
                 ]
             },
             {
-                "answer-item": "アフガニスタン",
+                "answerName": "アフガニスタン",
                 "comment": [
                     "10%の確率で病気で亡くなります。",
                     "10%の確率で病気で亡くなります。",
@@ -20,14 +21,16 @@
                 ]
             }
         ],
-        "next": "q2"
+        "next": "#q2",
+        "nextText": "次へ"
     },
     {
         "id": "q2",
-        "question": "Q2. 少年期",
+        "disabled": "disabled",
+        "question": "少年期",
         "answer": [
             {
-                "answer-item": "モンゴル",
+                "answerName": "モンゴル",
                 "comment": [
                     "20%の確率で字が読めません。",
                     "20%の確率で字が読めません。",
@@ -35,7 +38,7 @@
                 ]
             },
             {
-                "answer-item": "アフガニスタン",
+                "answerName": "アフガニスタン",
                 "comment": [
                     "20%の確率で字が読めません。",
                     "20%の確率で字が読めません。",
@@ -43,14 +46,16 @@
                 ]
             }
         ],
-        "next": "q3"
+        "next": "#q3",
+        "nextText": "次へ"
     },
     {
         "id": "q3",
-        "question": "Q3. 青年期",
+        "disabled": "disabled",
+        "question": "青年期",
         "answer": [
             {
-                "answer-item": "モンゴル",
+                "answerName": "モンゴル",
                 "comment": [
                     "50%の確率で働いています。",
                     "50%の確率で働いています。",
@@ -58,7 +63,7 @@
                 ]
             },
             {
-                "answer-item": "アフガニスタン",
+                "answerName": "アフガニスタン",
                 "comment": [
                     "50%の確率で働いています。",
                     "50%の確率で働いています。",
@@ -66,14 +71,16 @@
                 ]
             }
         ],
-        "next": "q4"
+        "next": "#q4",
+        "nextText": "次へ"
     },
     {
         "id": "q4",
-        "question": "Q4. 壮年期",
+        "disabled": "disabled",
+        "question": "壮年期",
         "answer": [
             {
-                "answer-item": "モンゴル",
+                "answerName": "モンゴル",
                 "comment": [
                     "30%の確率で給料が5000円以下です。",
                     "30%の確率で給料が5000円以下です。",
@@ -81,7 +88,7 @@
                 ]
             },
             {
-                "answer-item": "アフガニスタン",
+                "answerName": "アフガニスタン",
                 "comment": [
                     "30%の確率で給料が5000円以下です。",
                     "30%の確率で給料が5000円以下です。",
@@ -89,14 +96,16 @@
                 ]
             }
         ],
-        "next": "q5"
+        "next": "#q5",
+        "nextText": "次へ"
     },
     {
         "id": "q5",
-        "question": "Q5. 中年期",
+        "disabled": "disabled",
+        "question": "中年期",
         "answer": [
             {
-                "answer-item": "モンゴル",
+                "answerName": "モンゴル",
                 "comment": [
                     "10%の確率で病気で亡くなります。",
                     "10%の確率で病気で亡くなります。",
@@ -104,7 +113,7 @@
                 ]
             },
             {
-                "answer-item": "アフガニスタン",
+                "answerName": "アフガニスタン",
                 "comment": [
                     "10%の確率で病気で亡くなります。",
                     "10%の確率で病気で亡くなります。",
@@ -112,14 +121,16 @@
                 ]
             }
         ],
-        "next": "q6"
+        "next": "#q6",
+        "nextText": "次へ"
     },
     {
         "id": "q6",
-        "question": "Q6. 高年期",
+        "disabled": "disabled",
+        "question": "高年期",
         "answer": [
             {
-                "answer-item": "モンゴル",
+                "answerName": "モンゴル",
                 "comment": [
                     "50%の確率で病気で亡くなります。",
                     "50%の確率で病気で亡くなります。",
@@ -127,7 +138,7 @@
                 ]
             },
             {
-                "answer-item": "アフガニスタン",
+                "answerName": "アフガニスタン",
                 "comment": [
                     "50%の確率で病気で亡くなります。",
                     "50%の確率で病気で亡くなります。",
@@ -135,6 +146,7 @@
                 ]
             }
         ],
-        "next": "result"
-    },
+        "next": "#result",
+        "nextText": "結果へ"
+    }
 ]

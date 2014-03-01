@@ -1,4 +1,4 @@
-@import 'font-icons.css'
+@import 'font-icons'
 @import 'nib'
 global-reset()
 
@@ -24,14 +24,18 @@ header
     box-shadow 0 1px 9px rgba(0, 0, 0, 0.1)
     z-index 1
 
-.question
-    color #09b39c
-
 section
     margin-bottom 250px
+    counter-increment question
 
     &.disabled
         display none
+
+.question
+    color #09b39c
+
+    &:before
+        content: "Q" counter(question) ". "
 
 .answer
     display -webkit-box
