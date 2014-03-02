@@ -1,17 +1,53 @@
 extends /layouts/_default
 
 block content
+    div.main-image
     - for (var i = 0; i < data.length; i++)
-        section(id=data[i].id, class=data[i].disabled)
+        section(id=data[i].id, class="q-wrap #{data[i].disabled}", data-judge=data[i].judge, data-link=data[i].link)
             h2.question=data[i].question
             ul.answer
                 - for(var j = 0; j < data[i].answer.length; j++)
                     - var answer = data[i].answer[j]
                     li
-                        a.answer-item(href="#")=answer.answerName
+                        a.answer-item(href="#", data-value=answer.value)=answer.answerName
                         ul.comment
                             - for(var k = 0; k < answer.comment.length; k++)
                                 li=answer.comment[k]
                         a.next.icon-point-down(href=data[i].next)=data[i].nextText
+            div(class="sub-image parallax image#{(i+1)}")
 
-    section.disabled(id="result")
+    section.country(id="congo")
+        div
+            img.flag(src="/images/flag-congo.png")
+        div
+            img.main(src="/images/main-congo.jpg")
+    section.country(id="iran")
+        div
+            img.flag(src="/images/flag-iran.png")
+        div
+            img.main(src="/images/main-iran.png")
+    section.country(id="bangradesh")
+        div
+            img.flag(src="/images/flag-bangradesh.png")
+        div
+            img.main(src="/images/main-bangradesh.jpg")
+    section.country(id="thailand")
+        div
+            img.flag(src="/images/flag-thailand.png")
+        div
+            img.main(src="/images/main-thailand.jpg")
+    section.country(id="brazil")
+        div
+            img.flag(src="/images/flag-brazil.png")
+        div
+            img.main(src="/images/main-brazil.jpg")
+    section.country(id="indonesia")
+        div
+            img.flag(src="/images/flag-indonesia.png")
+        div
+            img.main(src="/images/main-indonesia.jpg")
+    section.country(id="japan")
+        div
+            img.flag(src="/images/flag-japan.png")
+        div
+            img.main(src="/images/main-japan.jpg")

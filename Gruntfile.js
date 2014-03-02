@@ -110,7 +110,7 @@ module.exports = function(grunt) {
           ext: '.css'
         }],
         options: {
-          compress: false,
+          compress: true,
           // convert the css url() declaration into nib inline imaging function
           // this converts images smaller than 30kb to data url
           urlfunc: 'url'

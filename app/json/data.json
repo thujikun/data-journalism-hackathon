@@ -2,151 +2,139 @@
     {
         "id": "q1",
         "disabled": "",
-        "question": "幼年期",
+        "question": "スマホが手放せない？",
         "answer": [
             {
-                "answerName": "モンゴル",
+                "answerName": "◯",
                 "comment": [
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。"
-                ]
+                ],
+                "value": "1"
             },
             {
-                "answerName": "アフガニスタン",
+                "answerName": "×",
                 "comment": [
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。"
-                ]
+                ],
+                "value": "0"
             }
         ],
+        "judge": "1",
+        "link": "congo",
         "next": "#q2",
         "nextText": "次へ"
     },
     {
         "id": "q2",
         "disabled": "disabled",
-        "question": "少年期",
+        "question": "つまみはピスタチオ派？",
         "answer": [
             {
-                "answerName": "モンゴル",
+                "answerName": "◯",
                 "comment": [
-                    "20%の確率で字が読めません。",
-                    "20%の確率で字が読めません。",
-                    "20%の確率で字が読めません。"
-                ]
+                ],
+                "value": "1"
             },
             {
-                "answerName": "アフガニスタン",
+                "answerName": "×",
                 "comment": [
-                    "20%の確率で字が読めません。",
-                    "20%の確率で字が読めません。",
-                    "20%の確率で字が読めません。"
-                ]
+                ],
+                "value": "0"
             }
         ],
+        "judge": "1",
+        "link": "iran",
         "next": "#q3",
         "nextText": "次へ"
     },
     {
         "id": "q3",
         "disabled": "disabled",
-        "question": "青年期",
+        "question": "出かけるときも家の中もユニクロ！",
         "answer": [
             {
-                "answerName": "モンゴル",
+                "answerName": "◯",
                 "comment": [
-                    "50%の確率で働いています。",
-                    "50%の確率で働いています。",
-                    "50%の確率で働いています。"
-                ]
+                ],
+                "value": "1"
             },
             {
-                "answerName": "アフガニスタン",
+                "answerName": "×",
                 "comment": [
-                    "50%の確率で働いています。",
-                    "50%の確率で働いています。",
-                    "50%の確率で働いています。"
-                ]
+                ],
+                "value": "0"
             }
         ],
+        "judge": "1",
+        "link": "bangradesh",
         "next": "#q4",
         "nextText": "次へ"
     },
     {
         "id": "q4",
         "disabled": "disabled",
-        "question": "壮年期",
+        "question": "夜小腹が空いたらコンビニ！",
         "answer": [
             {
-                "answerName": "モンゴル",
+                "answerName": "◯",
                 "comment": [
-                    "30%の確率で給料が5000円以下です。",
-                    "30%の確率で給料が5000円以下です。",
-                    "30%の確率で給料が5000円以下です。"
-                ]
+                ],
+                "value": "1"
             },
             {
-                "answerName": "アフガニスタン",
+                "answerName": "×",
                 "comment": [
-                    "30%の確率で給料が5000円以下です。",
-                    "30%の確率で給料が5000円以下です。",
-                    "30%の確率で給料が5000円以下です。"
-                ]
+                ],
+                "value": "0"
             }
         ],
+        "judge": "1",
+        "link": "thailand",
         "next": "#q5",
         "nextText": "次へ"
     },
     {
         "id": "q5",
         "disabled": "disabled",
-        "question": "中年期",
+        "question": "新聞は紙で読みたい",
         "answer": [
             {
-                "answerName": "モンゴル",
+                "answerName": "◯",
                 "comment": [
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。"
-                ]
+                ],
+                "value": "1"
             },
             {
-                "answerName": "アフガニスタン",
+                "answerName": "×",
                 "comment": [
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。",
-                    "10%の確率で病気で亡くなります。"
-                ]
+                ],
+                "value": "0"
             }
         ],
+        "judge": "1",
+        "link": "brazil",
         "next": "#q6",
         "nextText": "次へ"
     },
     {
         "id": "q6",
         "disabled": "disabled",
-        "question": "高年期",
+        "question": "週に３日は餃子を外せない",
         "answer": [
             {
-                "answerName": "モンゴル",
+                "answerName": "◯",
                 "comment": [
-                    "50%の確率で病気で亡くなります。",
-                    "50%の確率で病気で亡くなります。",
-                    "50%の確率で病気で亡くなります。"
-                ]
+                ],
+                "value": "1"
             },
             {
-                "answerName": "アフガニスタン",
+                "answerName": "×",
                 "comment": [
-                    "50%の確率で病気で亡くなります。",
-                    "50%の確率で病気で亡くなります。",
-                    "50%の確率で病気で亡くなります。"
-                ]
+                ],
+                "value": "0"
             }
         ],
+        "judge": "0",
+        "link": "indonesia",
         "next": "#result",
-        "nextText": "結果へ"
+        "nextText": "完了"
     }
 ]
